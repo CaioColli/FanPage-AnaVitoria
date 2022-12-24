@@ -1,0 +1,21 @@
+.cabecalho {
+    background-color: #BC8049;
+    height: 100px;
+}
+
+.titulo__cabecalho {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+
+@media screen and (min-width: 1366px) {
+    
+}

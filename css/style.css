@@ -1,0 +1,18 @@
+@import url(../css/header.css);
+@import url(../css/sidenav.css);
+@import url(../css/main__home.css);
+@import url(../css/box.css);
+
+@font-face {
+    font-family: albula;
+    src: url(..fonts/serpentype-albula-pro-bold.otf);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #DBA365;
+    font-family: albula;
+}

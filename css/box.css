@@ -1,0 +1,44 @@
+.caixa {
+    background-color: #BC8049;
+    border-radius: 15px;
+    max-width: 260px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.titulo__card {
+    color: white;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.caixa__play {
+    padding-top: 0.5rem;
+    height: 25px;
+}
+
+#progress {
+    color: white;
+}
+
+.caixa__volume {
+    /* margin: 0.5rem; */
+}
+
+#volume-up {
+    color: white;
+    font-size: 24px;
+}
+
+#volumeControl {
+    border-radius: 15px;
+    -webkit-appearance: none;
+    background-color: white;
+    accent-color: #DBA365;
+}
+
+#volume-down {
+    color: white;
+    font-size: 24px;
+}

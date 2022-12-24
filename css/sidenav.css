@@ -1,0 +1,85 @@
+.burguer {
+    position: absolute;
+    color: white;
+    left: 1rem;
+    width: 30px;
+    height: 35px;
+    margin-top: 0.5rem;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 6.; /* Stay at the top */
+    left: 0;
+    background-color: #BC8049; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .ul__sidenav {
+    text-align: center;
+  }
+
+  .li__sidenav {
+    padding: 0.6rem 0;
+  }
+  
+  .legenda__imagem {
+    margin-top: 0.5rem;
+    font-size: 16px;
+    color: white;
+  }
+
+  .active {
+    color: #DBA365;
+    font-size: 24px;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  .copyright {
+    margin-top: 15rem;
+    text-align: center;
+  }
+
+  .p__copyright {
+    color: white;
+  }
+
+  .ul__copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .li__copyright {
+    padding: 0.5rem;
+  }
