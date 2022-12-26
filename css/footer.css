@@ -1,0 +1,16 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50;
+    background-color: #BC8049;
+    text-align: center;
+}
+
+.paragraph__footer {
+    color: white;
+}
+
+.icone__footer {
+    display: none;
+}

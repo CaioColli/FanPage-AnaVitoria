@@ -1,0 +1,63 @@
+.app-wrapper {
+    background-color: #BC8049;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.song-img {
+    background: no-repeat;
+    background-position-x: 1.5rem;
+    background-position-y: 1.5rem;
+    background-size: contain;
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+#song-title {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+#song-artist {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.player-controls {
+    margin-bottom: 0.5rem;
+}
+
+.play {
+    padding: 0 0.5rem;
+}
+
+.next-up {
+    padding-bottom: 1rem;
+}
+
+#a_seguir {
+    color: white;
+}
+
+#song-next-up {
+    color: white;
+}
+
+#volume-up {
+    color: white;
+    font-size: 24px;
+}
+
+.volume-control {
+    margin-bottom: 1rem;
+}
+
+#volumeControl {
+    accent-color: #DBA365;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 6rem;
+    height: 0.8rem;
+    -webkit-appearance: none;
+}

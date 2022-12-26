@@ -1,3 +1,11 @@
+main {
+    background-image: url(../images/ilustracao.svg);
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    background-position-y: 36.5rem;
+    background-position-x: 2.8rem ;
+}
+
 .conteudo__principal {
     text-align: center;
     margin-top: 1rem;
@@ -5,5 +13,23 @@
 
 .titulo__principal {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
+    margin: 2rem 0;
 }
+
+.lista__musicas__favoritas {
+    margin-top: 2rem;
+}
+
+.musicas__favorita {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.icones_plataformas {
+    padding: 0 0.5rem;
+    width: 28px;
+    margin-bottom: 1rem;
+}
+
