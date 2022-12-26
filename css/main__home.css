@@ -3,7 +3,7 @@ main {
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position-y: 36.5rem;
-    background-position-x: 2.8rem ;
+    background-position-x: center;
 }
 
 .conteudo__principal {
@@ -19,6 +19,7 @@ main {
 
 .lista__musicas__favoritas {
     margin-top: 2rem;
+    
 }
 
 .musicas__favorita {

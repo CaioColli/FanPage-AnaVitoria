@@ -84,3 +84,13 @@
   .li__copyright {
     padding: 0.5rem;
   }
+
+  @media screen and (min-width: 768px) {
+    .burguer {
+      display: none;
+    }
+
+    .sidenav {
+      display: none;
+    }
+  }
