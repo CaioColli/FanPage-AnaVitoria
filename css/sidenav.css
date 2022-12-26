@@ -9,9 +9,10 @@
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
+    border-radius: 0 15px 15px 0;
+    max-height: auto; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+    position: absolute; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 6.; /* Stay at the top */
     left: 0;
