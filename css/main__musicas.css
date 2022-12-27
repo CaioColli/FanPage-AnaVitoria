@@ -1,0 +1,106 @@
+.lista__musicas__favoritas {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.conteudo__lista__musicas {
+  padding: 1rem;
+}
+
+#myBtn {
+  margin: 2rem 0;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #BC8049;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  border: #BC8049;
+  transition: 0.5s;
+}
+
+#myBtn:hover {
+  transform: scale(1.1);
+}
+
+#myBtn:active {
+  background-color: #BC8049;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+  margin-bottom: 60%;
+  border-bottom: 15px solid white;
+}
+
+@media screen and (min-width: 768px) {
+  .secao__playersMusic {
+    margin-top: 2rem;
+  }
+
+  .lista__musicas__favoritas {
+    margin: 2rem auto;
+  }
+
+  .conteudo__lista__musicas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .teste {
+    display: flex;
+  }
+
+  .lista__musicas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .lista__1 {
+    width: 25%;
+  }
+
+  .lista__2 {
+    width: 25%;
+  }
+
+  .lista__3 {
+    width: 25%;
+  }
+
+  .musicas__favorita {
+    font-size: 16px;
+  }
+
+  .icones_plataformas {
+    width: 20px;
+  }
+
+  .secao__musica__botao {
+    width: 25%;
+  }
+
+  .musicas__favoritas {
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  #myBtn {
+    display: none;
+  }
+}

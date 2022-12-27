@@ -1,8 +1,8 @@
-main {
+.main__home {
     background-image: url(../images/ilustracao.svg);
     background-repeat: no-repeat;
     background-size: 20rem;
-    background-position-y: 36.5rem;
+    background-position-y: 51rem;
     background-position-x: center;
 }
 
@@ -14,23 +14,94 @@ main {
 .titulo__principal {
     color: white;
     font-size: 24px;
-    margin: 2rem 0;
+    margin: 3.5rem 0;
 }
 
 .lista__musicas__favoritas {
     margin-top: 2rem;
-    
 }
 
-.musicas__favorita {
-    font-size: 18px;
-    color: white;
-    margin-bottom: 0.5rem;
+.span__ver__mais {
+    padding-bottom: 1rem;
 }
 
-.icones_plataformas {
-    padding: 0 0.5rem;
-    width: 28px;
-    margin-bottom: 1rem;
+.ver__mais {
+    color: #FBF1DC;
+    font-size: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .main__home {
+        height: 85%;
+        background-size: 25rem;
+        background-position-y: 26.8rem;
+        background-position-x: right;
+    }
+
+    .conteudo__tablet__desk {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 4rem;
+    }
+
+    .card__musicas {
+        margin-left: 1rem;
+    }
+
+    .lista__musicas__favoritas {
+        margin-right: 1rem;
+        width: 50%;
+    }
+
+    .ver__mais {
+        color: #FBF1DC;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .main__home {
+        height: calc(100vh - 180px);
+        background-size: 40rem;
+        background-position-y: 5rem;
+        background-position-x: right;
+    }
+
+    .conteudo__tablet__desk {
+        margin-left: 20rem;
+        justify-content: left;
+    }
+
+    .container__desktop {
+        display: flex;
+        align-items: center;
+    }
+
+    .lista__musicas {
+        margin-left: 2rem;
+    }
+
+    .lista__musicas__favoritas {
+        width: auto;
+    }
+
+    .lista__musicas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo__lista__musicas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .musicas__favorita {
+        font-size: 18px;
+    }
+
+    .icones_plataformas {
+        font-size: 18px;
+    }
+}

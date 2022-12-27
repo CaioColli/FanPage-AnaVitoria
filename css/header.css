@@ -1,4 +1,8 @@
 .cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #BC8049;
     height: 100px;
 }
@@ -7,15 +11,35 @@
     color: white;
     font-size: 32px;
     text-align: center;
-    padding-top: 2rem;
     margin: 0;
 }
 
+.navegacao {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
-    
+    .navegacao {
+        padding-top: 1rem;
+        display: block;
+    }
+
+    .lista__navegacao {
+        display: flex;
+    }
+
+    .conteudo__navegacao {
+        color: white;
+        font-size: 20px;
+        padding: 0 1rem;
+    }
+
+    .active__nav {
+        text-decoration: underline;
+    }
 }
 
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1920px) {
     
 }

@@ -14,3 +14,17 @@
 .icone__footer {
     display: none;
 }
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+
+    .icone__footer {
+        display: block;
+        width: 28px;
+        margin-left: 1rem;
+    }
+}
