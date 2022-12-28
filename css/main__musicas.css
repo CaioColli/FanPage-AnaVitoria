@@ -7,6 +7,11 @@
   padding: 1rem;
 }
 
+.musicas__favoritas {
+  color: white;
+  margin-bottom: 1rem;
+}
+
 #myBtn {
   margin: 2rem 0;
   width: 60px;
@@ -39,7 +44,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50%;
-  margin-bottom: 60%;
+  margin-bottom: 50%;
   border-bottom: 15px solid white;
 }
 
@@ -93,11 +98,6 @@
 
   .secao__musica__botao {
     width: 25%;
-  }
-
-  .musicas__favoritas {
-    color: white;
-    margin-bottom: 1rem;
   }
 
   #myBtn {
