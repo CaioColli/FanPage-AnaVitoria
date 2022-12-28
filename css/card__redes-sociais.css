@@ -1,0 +1,33 @@
+.img__card {
+    border-radius: 50%;
+    border: 2px solid #BC8049;
+}
+
+.icone__card {
+    width: 40px;
+}
+
+.descricao__card {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .img__card {
+        width: 230px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .cards__redesSociais {
+        padding: 0 2rem;
+    }
+    
+    .img__card {
+        width: 250px;
+    }
+}

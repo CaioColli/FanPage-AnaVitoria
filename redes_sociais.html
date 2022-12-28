@@ -1,0 +1,118 @@
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnaVitória Redes Sociais - FanPage</title>
+    <link rel="icon" href="./images/ilustracao__preto.png" type="image/png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main__redes_sociais.css">
+    <link rel="stylesheet" href="css/card__redes-sociais.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo__cabecalho">AnaVitoria</h1>
+        <nav class="navegacao">
+            <ul class="lista__navegacao">
+                <a href="">
+                    <li class="conteudo__navegacao">Home</li>
+                </a>
+                <a href="musicas.html">
+                    <li class="conteudo__navegacao">Musicas</li>
+                </a>
+                <a href="albuns.html">
+                    <li class="conteudo__navegacao">Álbuns</li>
+                </a>
+                <a href="">
+                    <li class="conteudo__navegacao active__nav">Redes sociais</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <span onclick="openNav()"><button class="burguer"><img src="icons/burguer.svg" alt=""></button></span>
+    </div>
+
+    <!--Sidenav Mobile -->
+    <div id="mySidenav" class="sidenav">
+        <ul class="ul__sidenav">
+            <a href="">
+                <li class="li__sidenav">
+                    <figure><img src="icons/home.svg" alt="" class="active__img">
+                        <figcaption class="legenda__imagem">Home</figcaption>
+                    </figure>
+                </li>
+            </a>
+            <a href="musicas.html">
+                <li class="li__sidenav">
+                    <figure><img src="icons/musicas.svg" alt="">
+                        <figcaption class="legenda__imagem">Musicas</figcaption>
+                    </figure>
+                </li>
+            </a>
+            <a href="albuns.html">
+                <li class="li__sidenav">
+                    <figure><img src="icons/album.svg" alt="">
+                        <figcaption class="legenda__imagem">Álbuns</figcaption>
+                    </figure>
+                </li>
+            </a>
+            <a href="">
+                <li class="li__sidenav">
+                    <figure><img src="icons/redes.svg" alt="">
+                        <figcaption class="legenda__imagem active">Redes Sociais</figcaption>
+                    </figure>
+                </li>
+            </a>
+        </ul>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="copyright">
+            <p class="p__copyright">©copyright - CaioColli</p>
+            <ul class="ul__copyright">
+                <a href="https://github.com/CaioColli" target="_blank">
+                    <li class="li__copyright"><img src="icons/github.svg" alt=""></li>
+                </a>
+                <a href="https://www.linkedin.com/in/caio-colli-75a431240/" target="_blank">
+                    <li class="li__copyright"><img src="icons/linkedin.svg" alt=""></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!--Fim Sidenav Mobile -->
+
+    <main class="main__redesSociais">
+        <div class="cards__redesSociais">
+            <figure><img src="images/anavitoria.png" alt="" class="img__card">
+                <a href="#"><figcaption class="descricao__card"><img src="icons/insta.svg" alt="" class="icone__card">anaVitória</figcaption></a>
+            </figure>
+        </div>
+
+        <div class="cards__redesSociais">
+            <figure><img src="images/vitt.png" alt="" class="img__card">
+                <a href="#"><figcaption class="descricao__card"><img src="icons/insta.svg" alt="" class="icone__card">vitfalcao</figcaption></a>
+            </figure>
+        </div>
+
+        <div class="cards__redesSociais">
+            <figure><img src="images/ana.png" alt="" class="img__card">
+                <a href="#"><figcaption class="descricao__card"><img src="icons/insta.svg" alt="" class="icone__card">anacaetanoc</figcaption></a>
+            </figure>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p class="paragraph__footer">©copyright - CaioColli</p><a href="https://github.com/CaioColli"
+            target="_blank"><img src="icons/github.svg" alt="" class="icone__footer"></a><a
+            href="https://www.linkedin.com/in/caio-colli-75a431240/" target="_blank"><img src="icons/linkedin.svg"
+                alt="" class="icone__footer"></a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

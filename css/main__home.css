@@ -2,7 +2,7 @@
     background-image: url(../images/ilustracao.svg);
     background-repeat: no-repeat;
     background-size: 20rem;
-    background-position-y: 40rem;
+    background-position-y: bottom;
     background-position-x: center;
 }
 
@@ -38,11 +38,10 @@
         background-position-x: right;
     }
 
-    .conteudo__tablet__desk {
+    .container__desktop {
         display: flex;
+        justify-content: center;
         align-items: center;
-        justify-content: space-around;
-        margin-top: 4rem;
     }
 
     .card__musicas {
@@ -52,6 +51,7 @@
     .lista__musicas__favoritas {
         margin-right: 1rem;
         width: 50%;
+        padding: 0 0.5rem;
     }
 
     .ver__mais {
@@ -64,18 +64,15 @@
     .main__home {
         height: calc(100vh - 180px);
         background-size: 40rem;
-        background-position-y: 5rem;
+        background-position-y: bottom;
         background-position-x: right;
-    }
-
-    .conteudo__tablet__desk {
-        margin-left: 20rem;
-        justify-content: left;
     }
 
     .container__desktop {
         display: flex;
         align-items: center;
+        margin-left: 20rem;
+        justify-content: left;
     }
 
     .lista__musicas {

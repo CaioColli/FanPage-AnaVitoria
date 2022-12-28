@@ -1,0 +1,65 @@
+.main__album {
+    background-image: url(../images/ilustracao.svg);
+    background-repeat: no-repeat;
+    background-size: 15rem;
+    background-position-y: bottom;
+    background-position-x: center;
+    padding-bottom: 15rem;
+}
+
+.div__botao {
+    text-align: center;
+}
+
+#myBtn {
+    background-color: #BC8049;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    border: 2px solid #BC8049;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .main__album {
+        background-size: 25rem;
+        background-position-x: right;
+    }
+
+    .container__tablet__desk {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    .caixa__vazia {
+        background-color: transparent;
+        margin: 0 auto;
+        height: auto;
+        width: 250px;
+    }
+    
+    #myBtn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .main__album {
+        background-position-y: bottom;
+        background-size: 30rem;
+        height: 60vh;
+    }
+
+    .container__tablet__desk {
+        margin: 0;
+        padding: 0 25rem;
+    }
+}

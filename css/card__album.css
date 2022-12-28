@@ -1,0 +1,54 @@
+.caixa {
+    border-radius: 15px;
+    background-color: #BC8049;
+    margin: 0 auto;
+    margin-top: 3rem;
+    height: 355px;
+    width: 250px;
+}
+
+.titulo__caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 48px;
+}
+
+.div__img__caixa {
+    display: flex;
+    justify-content: center;
+}
+
+.img__caixa {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.lista__caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.conteudo__lista {
+    padding: 0.2rem 0.5rem;
+}
+
+@media screen and (min-width: 1920px) {
+    .caixa {
+        height: 340px;
+        width: 250px;
+    }
+
+    .lista__caixa {
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .icon__caixa {
+        width: 32px;
+    }
+}
